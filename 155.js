@@ -37,7 +37,6 @@
         document.getElementById("loader").style.display = "none";
         document.addEventListener('keyup', function (event) {
           if (event.key === 'Enter' || event.keyCode === 13) {
-            debugger
             // 回车执行代码
             that.login('loginForm');
           }
@@ -57,10 +56,8 @@
           document.body.innerHTML = Source;
         },
         login: function (loginForm) {
-          debugger
           this.$refs[loginForm].validate((valid) => {
             if (valid) {
-              debugger
               if (this.loginForm.username == 'weeland' && this.loginForm.password == 'weeland1234560') {
                 // 要操作的元素
                 const container = document.querySelector('.container');
