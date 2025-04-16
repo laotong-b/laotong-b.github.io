@@ -1,0 +1,58 @@
+.login-container {
+    min-height: 100%;
+    width: 100%;
+    /* background-color: #2d3a4b; */
+    overflow: hidden;
+
+    .login-form {
+      position: relative;
+      width: 420px;
+      max-width: 100%;
+      padding: 20px 35px 0;
+      margin: 0 auto;
+      overflow: hidden;
+    }
+
+    .tips {
+      font-size: 14px;
+      color: #fff;
+      margin-bottom: 10px;
+
+      span {
+        &:first-of-type {
+          margin-right: 16px;
+        }
+      }
+    }
+
+    .svg-container {
+      padding: 6px 5px 6px 15px;
+      color: #889aa4;
+      vertical-align: middle;
+      width: 30px;
+      display: inline-block;
+    }
+
+    .title-container {
+      position: relative;
+
+      .title {
+        user-select: none;
+        font-size: 26px;
+        color: #fff;
+        margin: 0px auto 40px auto;
+        text-align: center;
+        font-weight: bold;
+      }
+    }
+
+    .show-pwd {
+      position: absolute;
+      right: 10px;
+      top: 7px;
+      font-size: 16px;
+      color: #889aa4;
+      cursor: pointer;
+      user-select: none;
+    }
+  }
